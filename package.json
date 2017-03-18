@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/jrbros/react-components#readme",
   "devDependencies": {
-    "@kadira/storybook": "^2.35.3",
     "babel-core": "^6.24.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.4.1",
@@ -45,6 +44,7 @@
     "react-test-renderer": "^15.4.2"
   },
   "dependencies": {
+    "@kadira/storybook": "^2.35.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "sanitize.css": "^5.0.0",
