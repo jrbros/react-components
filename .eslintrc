@@ -1,0 +1,45 @@
+{
+    "parser": "babel-eslint",
+
+    "plugins": [
+        "import",
+        "react",
+        "jsx-a11y"
+    ],
+
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+    },
+
+    settings: {
+        'import/ignore': ['node_modules'],
+        'import/extensions': ['.js', '.jsx'],
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.json'],
+            },
+        },
+    },
+
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true,
+        jest: true,
+        node: true
+    },
+
+    "extends": "airbnb",
+
+     "rules": {
+        "indent": [0, 4],
+        "comma-dangle": 0,
+        "react/jsx-indent-props": [0, 4],
+        "react/jsx-indent": [0, 4]
+    }
+
+}

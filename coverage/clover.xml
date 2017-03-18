@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1489860486463" clover="3.2.0">
+  <project timestamp="1489860486463" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1" elements="9" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2">
+      <package name="components.Button">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <file name="index.jsx" path="/Users/jeremyraffin/PhpstormProjects/react-components/src/components/Button/index.jsx">
+          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="constants">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="colors.js" path="/Users/jeremyraffin/PhpstormProjects/react-components/src/constants/colors.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
