@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "jest-coverage": "jest --coverage",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint './.storybook' './stories'",
     "storybook": "start-storybook -p 9001 -c .storybook",
@@ -47,6 +48,7 @@
   "dependencies": {
     "@kadira/storybook": "^2.35.3",
     "@kadira/storybook-deployer": "^1.2.0",
+    "polished": "^1.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "sanitize.css": "^5.0.0",

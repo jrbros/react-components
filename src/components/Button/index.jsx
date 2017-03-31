@@ -1,7 +1,7 @@
 import { PropTypes } from 'react';
 import styled from 'styled-components';
 
-import { GRAY, GRAY_LIGHT } from '../../constants/colors';
+import THEME from '../../constants/theme';
 
 const Button = styled.button`
     /* Box model */
@@ -9,17 +9,18 @@ const Button = styled.button`
     padding: .6rem 1rem;
 
     /* Typo */
-    color: ${GRAY};
+    color: ${props => props.theme.color};
 
     /* Visual */
-    background-color: ${GRAY_LIGHT};
-    border: none;
+    background-color: ${props => props.theme.background};
+    border: ${props => props.theme.border};
     outline: none;
 `;
 
 Button.defaultProps = {
     fullWidth: false,
-    width: 'auto'
+    width: 'auto',
+    theme: THEME.button.default
 };
 
 Button.propTypes = {

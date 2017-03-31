@@ -8,3 +8,30 @@ exports[`Button 1`] = `
   Default Button
 </button>
 `;
+
+exports[`Button with custom theme 1`] = `
+<button
+  className="kQnsXr"
+  width="auto"
+>
+  Default Button
+</button>
+`;
+
+exports[`Button with custom width 1`] = `
+<button
+  className="byvJtN"
+  width="20rem"
+>
+  Default Button
+</button>
+`;
+
+exports[`Button with full width 1`] = `
+<button
+  className="cPQaes"
+  width="auto"
+>
+  Default Button
+</button>
+`;

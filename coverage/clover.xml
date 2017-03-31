@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1489860486463" clover="3.2.0">
-  <project timestamp="1489860486463" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1" elements="9" coveredelements="8" complexity="0" loc="6" ncloc="6" packages="2" files="2" classes="2">
+<coverage generated="1490969952017" clover="3.2.0">
+  <project timestamp="1490969952017" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="2" files="3" classes="3">
       <package name="components.Button">
-        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <file name="index.jsx" path="/Users/jeremyraffin/PhpstormProjects/react-components/src/components/Button/index.jsx">
-          <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+          <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
           <line num="6" count="1" type="stmt"/>
-          <line num="8" count="1" type="stmt"/>
+          <line num="8" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="12" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
           <line num="20" count="1" type="stmt"/>
-          <line num="25" count="1" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
         </file>
       </package>
       <package name="constants">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="colors.js" path="/Users/jeremyraffin/PhpstormProjects/react-components/src/constants/colors.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
           <line num="2" count="1" type="stmt"/>
+        </file>
+        <file name="theme.js" path="/Users/jeremyraffin/PhpstormProjects/react-components/src/constants/theme.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="3" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>
