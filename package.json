@@ -7,14 +7,15 @@
     "test": "jest",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint './.storybook' './stories'",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrbros/react-components.git"
   },
   "author": "Jérémy Raffin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jrbros/react-components/issues"
   },
@@ -45,6 +46,7 @@
   },
   "dependencies": {
     "@kadira/storybook": "^2.35.3",
+    "@kadira/storybook-deployer": "^1.2.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "sanitize.css": "^5.0.0",
